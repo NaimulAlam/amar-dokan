@@ -1,6 +1,7 @@
-export const addBook = (book) => {
+export const actionAuth = (userInfo) => {
+
     return {
-        type: ,
-        payload:,
-    };
+        type: "USER_LOGIN",
+        payload: userInfo,
+    }
 };

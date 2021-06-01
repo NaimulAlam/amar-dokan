@@ -1,0 +1,9 @@
+.add-to-cart-card{    
+    /* border-radius: 15px; */
+    box-shadow: 5px 5px 10px #bababa;
+}
+.add-to-cart-card img{
+    height: 100px;
+    box-shadow: 5px 5px 10px #bababa;
+    border-radius: 15px;
+}

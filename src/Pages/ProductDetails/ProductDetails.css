@@ -1,0 +1,44 @@
+.product-details-section{
+    background: #a6fff2;
+    width: 100%;
+    height: 100vh;
+}
+.product-details-card{
+    border-radius: 15px;
+    background: #a6fff2;
+    box-shadow:  34px 34px 68px #8dd9ce,-34px -34px 68px #bfffff;
+}
+.product-details-section img{
+    width: 350px;
+    border-radius: 15px 0px 0px 15px;
+}
+.pd-color span{
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+.pd-color .pd-red{
+    background-color: #ff304f;
+}
+.pd-color .pd-lightblue{
+    background-color: #2f89fc;
+}
+.pd-color .pd-green{
+    background-color: #15cda8;
+}
+.pd-color .pd-violet{
+    background-color: #9764c7;
+}
+.pd-color .pd-salmon{
+    background-color: #FA8072;
+}
+.pd-quantity button{
+    color: #33cad5 ;
+
+}
+.pd-quantity input{
+    width: 50px; 
+
+}
