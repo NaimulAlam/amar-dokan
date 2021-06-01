@@ -1,0 +1,14 @@
+.carousel-item-1{
+    background: url(../../images/carousel-item-1-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 86vh;
+
+}
+.carousel-item-2{
+    background: url(../../images/carousel-item-2-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 86vh;
+
+}

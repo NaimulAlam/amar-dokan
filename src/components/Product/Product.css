@@ -1,0 +1,27 @@
+#ProductSection{
+    background: #FAFAFA;
+}
+.card-custom{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #ccc;
+    overflow: hidden;
+}
+.card-custom img{
+    border-radius: 10px 10px 0px 0px;
+    transition: all ease .5s;
+}
+.card-custom:hover img{
+    transform: scale(1.10);
+    transition: all ease .5s;
+}
+.slick-prev:before,
+.slick-next:before {
+    font-family:initial!important;
+    color:rgb(255, 255, 255) !important; 
+    background: #33cad5;
+    padding: 5px 9px;
+    font-size: 20px;
+    border-radius: 50%;
+    
+}

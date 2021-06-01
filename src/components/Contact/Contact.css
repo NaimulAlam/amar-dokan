@@ -1,0 +1,20 @@
+.contact-form{
+    border-radius: 0px;
+    background: #eafaff;
+}
+.contact-form input, textarea{
+    border: none !important;
+    border-radius: 0 !important;
+    background: #fff !important;
+    color: #000 !important;
+}
+.contact-form textarea{
+    resize: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    box-sizing: border-box;
+    -webkit-box-shadow:inset 0px 0px 0px 2px #33CAD5;
+    -moz-box-shadow:inset 0px 0px 0px 2px #33CAD5; 
+    box-shadow:inset 0px 0px 0px 2px #33CAD5;
+}

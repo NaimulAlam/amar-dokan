@@ -1,9 +1,13 @@
 const initialState = {
-  readingList: [],
-  discoverList: [],
-  finishedList: [],
+  // readingList: [],
+  // discoverList: [],
+  // finishedList: [],
+  userDetails:{},
+
+  
+
 };
-const reducerBooks = (state = initialState, action) => {
+const reducerShop = (state = initialState, action) => {
   switch (action.type) {
     // case "ADD_TO_READING_LIST":
     //   return {
@@ -11,9 +15,15 @@ const reducerBooks = (state = initialState, action) => {
     //     readingList: [...state.readingList, action.payload],
     //   };
 
+    case "USER_LOGIN":
+      return{
+        ...state,
+        userDetails: action.payload
+      }
+
     default:
       return state;
   }
 };
 
-export default reducerBooks;
+export default reducerShop;

@@ -1,0 +1,31 @@
+footer{
+    background: #74f9ff;
+}
+
+.brand-logo img {
+    width: 200px;
+    height: auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.146);
+}
+.social-ico{
+    font-size: 32px;
+    margin-right: 20px;
+    color: #0000 !important;
+    transition: all ease .3s;
+}
+.social-ico:hover{
+    color: #0000 !important;
+    transform: scale(1.20);
+    transition: all ease .3s;
+}
+footer h6{
+    line-height: 30px;
+    transition: all ease .2s;
+}
+footer h6:hover{
+    color: #212727;
+    cursor: pointer;
+    transition: all ease .2s;
+}
